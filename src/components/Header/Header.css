@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+}
+.header-img{
+    width: 50%;
+}
+.header-img img{
+    height: 100%;
+}
+.header-content h1{
+    font-size: 3.6rem;
+}
+.header-content h1:nth-child(2){
+    margin-left: 3vw;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 50%;
+}
+.tagline-description p{
+    font-size: 1.1rem;
+    width: 90%;
+    text-align: center;
+}
+.header-btn{
+   align-self: center;
+   padding: 1rem 1.4rem;
+   border: none;
+   border-radius: 2rem;
+   background-color: #90eab4;
+}
+.tagline-hl{
+    color: #09dc5e;
+}
+hr{
+    width: 80vw;
+    border: none;
+    background-color: #90eab4;
+    margin: 2rem auto;
+    height: 2px;
+}

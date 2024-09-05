@@ -1,0 +1,143 @@
+.list-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem auto;
+    width: 80vw;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .list-item {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-header {
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .item-header1 {
+    height: 3.5rem;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .item-header2 {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .item-header-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .crop-img{
+    width: 3.2rem;
+  }
+  .dropdown-arrow {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .match-percent{
+    background-color: rgb(148, 223, 148);
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+  .category{
+    background-color: rgb(99, 155, 219);
+    padding: 5px 15px;
+    border-radius: 20px;
+  }
+  .item-content {
+    height: 13vw;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    border: 2px solid rgb(119, 210, 119);
+  }
+  .item-content-left{
+    padding-right: 2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+ .crop-img-big{
+    height: 80%;
+  }
+  .item-content-right{
+    padding: 4px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+  .aggrow-score{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: larger;
+  }
+  .category-div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .score{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .ai-icon{
+    height: 2rem;
+  }
+  .report-parameters{
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .report-parameters p{
+    font-weight: 500;
+  }
+  .percent{
+    background-color: rgb(236, 238, 129);
+    padding: 5px 15px;
+    border-radius: 20px;
+    align-self: center;
+  }
+  .report-header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  .report-header>p{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .filter img{
+    width: 1.5rem;
+    
+  }
+  .filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }

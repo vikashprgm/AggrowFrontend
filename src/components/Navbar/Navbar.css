@@ -1,0 +1,53 @@
+.navbar{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-menu{
+    font-size: 1.1rem;
+    display: flex;
+    gap: 3rem;
+    list-style : none;
+    color: rgb(79, 76, 76);
+}
+.navbar-menu li{
+    cursor: pointer;
+    position: relative;
+}
+.logo{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.signin{
+    font-size: 12px;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 1.4rem;
+    background-color: #00712D;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: #02b048;
+    
+}
+
+.navbar-menu li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Thickness of the border */
+    background-color: #00712D; /* Border color */
+    transition: width 0.3s ease-in-out; /* Animation for width change */
+}
+
+/* Hover effect for sliding border */
+.navbar-menu li:hover::after {
+    width: 100%;
+}

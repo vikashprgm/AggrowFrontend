@@ -1,0 +1,109 @@
+.scheme{
+    width: 80%;
+    margin: 2rem auto;
+}
+.scheme h1{
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+.scheme-content{
+    display: flex;
+    justify-content: space-around;
+    height: 36vh;
+}
+.carousel {
+    width: 80%; /* Adjust the width to make the carousel smaller */
+    height: 100%;
+    max-width: 500px; /* Maximum width */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel__container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    scroll-behavior: smooth; /* Smooth scroll for navigation */
+}
+
+.carousel__slides {
+    display: flex;
+    width: 100%;
+}
+
+.carousel__slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel__slide img {
+    width: 100%;
+    display: block;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 1000; /* Ensure buttons are on top of the slides */
+}
+
+.carousel__button--prev {
+    left: 10px;
+}
+
+.carousel__button--next {
+    right: 10px;
+}
+
+.news-ticker{
+    border-radius: 10px ;
+    width: 40%;
+    background-image: url("https://img.freepik.com/free-photo/abstract-blur-empty-green-gradient-studio-well-use-as-backgroundwebsite-templateframebusiness-report_1258-52607.jpg?size=626&ext=jpg&ga=GA1.1.1157674167.1723803387&semt=ais_hybrid");
+    background-size: cover;
+    color: white;
+}
+
+.news-alerts {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius:10px;
+    border: 3px solid black;
+    font-family:'Segoe UI';
+    overflow:scroll; 
+}
+.news-alerts ul {
+    
+    list-style:circle;
+    margin: 0;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.news-alerts ul li {
+    padding: 8px 2px;
+}
+
+.news-alerts ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.news-alert-list{
+    margin-left: 1rem;
+    
+}
