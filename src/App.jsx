@@ -1,7 +1,7 @@
 import React, { useState }  from "react"
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from "./components/Navbar/Navbar"
-import Home from "./pages/Home/home"
+import Home from "./pages/Home/Home"
 import Footer from "./components/Footer/Footer"
 import Login from "./pages/Login/Login"
 import ExpandableList from "./pages/Report/Report"
